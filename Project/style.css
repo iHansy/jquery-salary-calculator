@@ -26,5 +26,11 @@ section {
 }
 
 main {
+    margin-bottom: 20px;
     margin-left: 20px;
+}
+
+table, th, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
 }
