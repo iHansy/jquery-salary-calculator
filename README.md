@@ -1,9 +1,11 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# Monthly Salary Calculator
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+In this project we used the annual salary of multiple employees to calculate the total monthly salary of all combined. We created functionality but adding multiple inputs, a submit button, and delete buttons. If the monthly total is over $20,000, the price gets highlighted in red. This way we know when we're over our budget.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+Languages used:
+    - JavaScript
+    - jQuery
+    - HTML
+    - CSS
