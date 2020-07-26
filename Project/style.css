@@ -17,8 +17,9 @@ section {
     margin-left: 20px;
 }
 
-#inputs {
+.inputs {
     margin-top: 20px;
+    width: 100%;
 }
 
 .buttonCss {
@@ -28,9 +29,21 @@ section {
 main {
     margin-bottom: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
-table, th, tr, td {
+table, th, tr, td, tbody {
     border: 1px solid;
     border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+.deleteOne {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
