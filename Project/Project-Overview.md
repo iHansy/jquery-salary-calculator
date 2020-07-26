@@ -24,4 +24,5 @@ JavaScript / jQuery
     - Submit button collects inputs and stores them into an array or variables. I think an array might be better so I can loop through it while appending.
     - Submit button appends employee info to DOM.
     - Submit button adds to monthly cost. If > 20k, monthly salary goes red.
+    - Submit button also clears fields.
     - Create a delete button that removes an employee, preferably removes from monthly cost as well.

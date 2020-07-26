@@ -16,15 +16,18 @@ section {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .inputs {
     margin-top: 20px;
-    width: 100%;
+    width: 50px;
 }
 
-.buttonCss {
+.submitButton {
     margin-top: 10px;
+    display: block;
+    margin-right: 5%;
 }
 
 main {
@@ -42,7 +45,7 @@ table {
     width: 100%;
 }
 
-.deleteOne {
+.deleteButton {
     margin-top: 7px;
     margin-bottom: 7px;
     margin-left: 30%;
@@ -56,3 +59,11 @@ footer {
     margin-top: 30px;
 }
 
+.flat-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}

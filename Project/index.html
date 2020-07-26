@@ -15,16 +15,14 @@
     </header>
     <section>
         <h2>Add Employee</h2>
-        <div class="inputs">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="ID">
-            <input type="text" placeholder="Job Title">
-            <input type="text" placeholder="Annual Salary">
-            <div class="buttonCss">
-                <button class="submitButton">Submit</button>
-            </div>
+        <div class="inputs flat-grid">
+            <input class="inputForm" id="firstNameInput"type="text" placeholder="First Name">
+            <input class="inputForm" id="lastNameInput"type="text" placeholder="Last Name">
+            <input class="inputForm" id="idInput"type="number" placeholder="ID">
+            <input class="inputForm" id="titleInput"type="text" placeholder="Job Title">
+            <input class="inputForm" id="salaryInput"type="number" placeholder="Annual Salary">
         </div>
+        <button class="submitButton" id="submitButton">Submit</button>
     </section>
     <main>
         <h2>Employees</h2>
@@ -39,15 +37,15 @@
                     <th></th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>firstname</td>
-                    <td>lastname</td>
-                    <td>id</td>
-                    <td>jobtitle</td>
-                    <td>annualsalary</td>
+            <tbody id="tbody">
+                <tr id="employeeDom">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td>
-                        <button class="deleteOne">delete</button>
+                        <button class="deleteButton" id="deleteButton">delete</button>
                     </td>
                 </tr>
             </tbody>
