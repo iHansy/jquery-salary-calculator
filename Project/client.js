@@ -33,13 +33,18 @@ function getInfo() { // start info
     // console.log(employeesArray); // confirm object goes in array
     appendToDom(); // adding each employee to DOM
     
-
+    // emptying input values
+    $('#firstNameInput').val('');
+    $('#lastNameInput').val('');
+    $('#idInput').val(''); 
+    $('#titleInput').val('');
+    $('#salaryInput').val('');
 
 } // end getInfo function
 
 function appendToDom() {
         // $('#tbody').append(`<tr>${Object.values(employeeObject).map((v)=>`<td>${v}</td>`).join`` }</tr>`); // Ronald's example, don't understand fully
-        $('#tbody').empty();
+        $('#tbody').empty(); //emptying tbody so duplicate rows don't appear
 
     for (let employee of employeesArray) { //start for loop through employeesArray
 
