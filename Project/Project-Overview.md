@@ -3,6 +3,9 @@ Initial thoughts:
     - I want to work on this project from top of the page down, using the Wireframe example as reference.
     - I'd like to add styling with Bootstrap if there's time.
     - Create an id or class on every element for future planning.
+    - Create html DOM visual first without JavaScript functionality.
+    - Then add JS functionality.
+    - DON'T FORGET 
 
 Plan: 
 

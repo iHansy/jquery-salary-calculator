@@ -1,0 +1,30 @@
+body {
+    margin-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+}
+
+header {
+    text-align: center;
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#inputs {
+    margin-top: 20px;
+}
+
+.buttonCss {
+    margin-top: 10px;
+}
+
+main {
+    margin-left: 20px;
+}
